@@ -1,5 +1,5 @@
 {% set name = "algviz" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/algviz-{{ version }}.tar.gz
-  sha256: dc4c7b8e03f12d0ac71156af5e44a2807c7760230b7e71db6b9a1345313bd7ae
+  sha256: 18e6d9e3db8ee42be4565106ef9321dee7d1f0c919a462e7f71f78a95d390411
 
 build:
   noarch: python
