@@ -144,4 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@julian-belina](https://github.com/julian-belina/)
+* [@zjl9959](https://github.com/zjl9959/)
 
