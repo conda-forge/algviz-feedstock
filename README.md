@@ -1,11 +1,11 @@
-About algviz
-============
+About algviz-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/algviz-feedstock/blob/main/LICENSE.txt)
 
 Home: https://algviz.com/
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/algviz-feedstock/blob/main/LICENSE.txt)
 
 Summary: An algorithm visualization tool for jupyter notebook to show animation for vector, table, linked list, tree and graph data structures.
 

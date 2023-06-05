@@ -1,5 +1,5 @@
 {% set name = "algviz" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/algviz-{{ version }}.tar.gz
-  sha256: 507be08fed9703414b0519e2b0d2a583596ceb1b330aedc7282a292510590b3b
+  sha256: bab78e24f4e80c6e363728bd80de9926ef6649e54d1cc487f0f3f98ef1cc1fdc
 
 build:
   noarch: python
@@ -16,12 +16,13 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
   run:
-    - python >=3.7
-    - python-graphviz >=0.8.4,!=0.18,<=0.19.1
-    - ipykernel >=6.4.0,<=6.7.0
+    - python >=3.8
+    - python-graphviz >=0.8.4,!=0.18,<=0.20.1
+    - ipykernel >=6.4.0,<=6.23.1
+    - ipython >=8.0.0,<=8.12.0
 
 test:
   imports:
